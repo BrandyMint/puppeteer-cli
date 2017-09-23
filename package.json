@@ -1,0 +1,38 @@
+{
+  "name": "puppeteer-webshot-cli",
+  "version": "1.0.0",
+  "description": "Easy website screenshots in CLI with headless Chrome using puppeteer",
+  "main": "cli.js",
+  "scripts": {
+    "test": "standard puppeteer-webshot-cli"
+  },
+  "bin": {
+    "puppeteer-webshot-cli": "puppeteer-webshot-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandyMint/puppeteer-webshot-cli.git"
+  },
+  "keywords": [
+    "pupeteer",
+    "webshot",
+    "chrome",
+    "headless"
+  ],
+  "author": {
+    "name": "Danil Pismenny",
+    "url": "https://github.com/dapi"
+  },
+  "license": "UNLICENSE",
+  "bugs": {
+    "url": "https://github.com/BrandyMint/puppeteer-webshot-cli/issues"
+  },
+  "homepage": "https://github.com/BrandyMint/puppeteer-webshot-cli#readme",
+  "dependencies": {
+    "puppeteer": "^0.11.0",
+    "yargs": "^9.0.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
