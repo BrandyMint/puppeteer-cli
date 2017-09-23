@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-webshot-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy website screenshots in CLI with headless Chrome using puppeteer",
   "main": "cli.js",
   "scripts": {
@@ -34,5 +34,8 @@
   },
   "devDependencies": {
     "standard": "^10.0.3"
-  }
+  },
+  "engines": {                                                                                                                                                                           
+    "node": "^7.9"                                                                                                                                                                       
+  }   
 }
