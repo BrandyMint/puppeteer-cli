@@ -35,7 +35,7 @@ const argv = require('yargs')
 .demandOption(['url'])
 .argv
 
-const { url, out, fullPage, debug, delay, css, style, width, height } = argv;
+const { url, out, fullPage, debug, delay, css, style, width, height } = argv
 
 const sleep = (ms) => {
   return new Promise(resolve => setTimeout(resolve, ms))
